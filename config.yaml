@@ -35,6 +35,9 @@ dotfiles:
   f_xresources:
     src: config/Xresources
     dst: ~/.Xresources  
+  f_xinitrc:
+    src: config/xinitrc
+    dst: ~/.xinitrc
 profiles:
   Nightblade:
     dotfiles:
@@ -44,6 +47,7 @@ profiles:
     - d_polybar
     - f_zshrc
     - f_compton.conf
-    - f_fura_font.otf
+    # - f_fura_font.otf
     - f_xresources
+    - f_xinitrc
     # - f_settings.json

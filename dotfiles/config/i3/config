@@ -188,6 +188,6 @@ bindsym $mod+r mode "resize"
 
 exec_always --no-startup-id compton --config ~/.config/compton.conf -b
 exec_always --no-startup-id ibus-daemon -drx
-exec_always --no-startup-id sh ~/.config/polybar/run_polybar.sh
+exec_always --no-startup-id sh ~/.config/polybar/launch.sh
 exec_always --no-startup-id feh --bg-fill ~/.config/wallpaper.jpg
 exec_always --no-startup-id xrandr --output HDMI-0 --auto --right-of HDMI-1
