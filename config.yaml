@@ -1,6 +1,6 @@
 config:
   backup: true
-  banner: true
+  banner: false
   create: true
   dotpath: dotfiles
   keepdot: false
@@ -32,6 +32,9 @@ dotfiles:
   f_fura_font.otf:
     src: config/Fura Code Retina Nerd Font Complete.otf
     dst: ~/.fonts/Fura Code Retina Nerd Font Complete.otf
+  f_xresources:
+    src: config/Xresources
+    dst: ~/.Xresources  
 profiles:
   Nightblade:
     dotfiles:
@@ -42,4 +45,5 @@ profiles:
     - f_zshrc
     - f_compton.conf
     - f_fura_font.otf
+    - f_xresources
     # - f_settings.json

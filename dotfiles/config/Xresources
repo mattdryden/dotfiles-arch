@@ -1,0 +1,4 @@
+rofi.color-window: #2a2838, #2a2838, #eeffff
+rofi.color-normal: #2a2838, #eeffff, #2a2838, #999999, #eeffff
+rofi.color-active: #2a2838, #eeffff, #2a2838, #999999, #eeffff
+rofi.color-urgent: #2a2838, #eeffff, #2a2838, #999999, #eeffff

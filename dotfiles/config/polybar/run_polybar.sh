@@ -9,4 +9,8 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 # Launch Polybar, using default config location ~/.config/polybar/config
 polybar -c ~/.config/polybar/config.ini mainbar &
 
+for m in $(polybar --list-monitors | cut -d":" -f1); do
+    MONITOR=$m polybar --reload mainbar &
+done
+
 echo "Polybar launched..."
